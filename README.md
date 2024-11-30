@@ -24,7 +24,7 @@ Therefore, two essential issues need to be considered:
 We should refer to the microkernel architecture, where the kernel is streamlined and other functions are implemented in the form of libraries. From the perspective of image configuration, a kernel image (WellsLk) can be used with library images of different hardware levels to meet the resource management requirements of the project for all hardware levels (such as S/NS/Real World and corresponding exception levels in ARM).
 
 WellsLk references a resource view framework as shown below:
-![](doc/gf-framework.png)
+![](manual/gf-framework.png)
 
 Linux compatible:
 1. UML(User Mode Linux)
@@ -119,7 +119,7 @@ For arm32-a,
 3. ./scripts/do-qemuarm -v
 ```
 
-##### AUX-Hypervisor 
+##### AUX-Hypervisor
 ```
 For arm32-a,
 1. make DEFAULT_PROJECT=qemu-virt-arm32-test defconfig
